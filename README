@@ -1,0 +1,16 @@
+Salut !
+
+Pour utiliser ce code, il faut créer un fichier : password.rb
+
+Suivre ce template pour compléter le fichier :
+
+def get_mdp
+  password = "TON MDP"
+end
+
+Sauvegarder et quitter.
+
+Une fois cette étape réalisée, le code devrait fonctionner parfaitement.
+
+Remarque : Le code se limite à 2 envois de mail pour éviter le spam inutile.
+Remarque : On lance les méthodes depuis le fichier app.rb

@@ -2,8 +2,8 @@ require 'gmail'
 require_relative 'password'
 require_relative 'google_spreadsheet'
 
-# Ton username pour te connecter à ton compte gmail
 
+# Ton username pour te connecter à ton compte gmail
 def connection(username)
   password = get_mdp
   gmail = Gmail.connect(username, password)
@@ -17,7 +17,7 @@ def send_email(gmail, destinataire)
     subject "TEST TEST"
     body "18:55"
   end
-  email.deliver! # or: gmail.deliver(email)
+  email.deliver!
   puts "email sent !"
 end
 
