@@ -10,7 +10,7 @@ end
 
 Sauvegarder et quitter.
 
-Une fois cette étape réalisée, le code devrait fonctionner parfaitement.
+Une fois cette étape réalisée, le code devrait fonctionner parfaitement, en incluant votre propre fichier config.json (pour la connexion sur googleDrive)
 
 Remarque : Le code se limite à 2 envois de mail pour éviter le spam inutile.
 Remarque : On lance les méthodes depuis le fichier app.rb
